@@ -35,8 +35,8 @@
     <UICulture>en-US</UICulture>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HelixToolkit.Wpf">
-      <HintPath>..\..\helix-toolkit\HelixToolkit.Wpf.dll</HintPath>
+    <Reference Include="HelixToolkit.Wpf, Version=2.23.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
+      <HintPath>..\..\ioSender XL\packages\HelixToolkit.Wpf.2.23.0\lib\net45\HelixToolkit.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -197,6 +197,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\App.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
